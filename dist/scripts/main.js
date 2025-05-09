@@ -667,6 +667,8 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"3cYfC":[function(require,module,exports,__globalThis) {
+AOS.init();
+const dataDoEvento = new data("dec 12, 2028 17:00:00");
 
 },{}]},["7dMPt","3cYfC"], "3cYfC", "parcelRequire1a55", {})
 

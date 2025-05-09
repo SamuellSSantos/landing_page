@@ -92,3 +92,21 @@ Agora em infos bar vamos criar mais uma media query para telas de tablet
         gap: 16px
     }
 }
+
+Agora vamos adicionar um midia query para a nossa classe event para que a nossa imagem fique com display block quando estiver rodando em dispositivos moveis, precisamos também diminuir o tamanho da imagem, em &__details vamos adicionar um margin-right: 0 e margin-bottom: 16px;
+
+@media(ma-width: 640px){
+    .container{
+        display: block;
+    }
+
+    &__image{
+        width: 100%
+    }
+
+    &__details{
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+}
+

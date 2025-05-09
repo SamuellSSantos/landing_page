@@ -1,0 +1,1 @@
+{"mappings":"AAAA,IAAI,IAAI;AAER,MAAM,eAAe,IAAI,KAAK","sources":["src/scripts/main.js"],"sourcesContent":["AOS.init();\r\n\r\nconst dataDoEvento = new data(\"dec 12, 2028 17:00:00\")"],"names":[],"version":3,"file":"landing_page.f75de5e1.js.map","sourceRoot":"/__parcel_source_root/"}

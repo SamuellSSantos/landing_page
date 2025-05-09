@@ -1,3 +1,5 @@
+@use '../variables';
+
 .button{
     padding: 12px;
     font-size: 18px;
@@ -7,14 +9,14 @@
     white-space: nowrap;
 
     &--primary{
-        color: #fff;
-        background-color: #4f2ac3;
+        color: variables.$textColor;
+        background-color: variables.$purple;
     }
 
     @media( max-width: 640px){
         display: block;
         flex-direction: column;
-        border-color: #4f2ac3;
+        border-color: variables.$purple;
         width: 100%;
     }
 
